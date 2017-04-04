@@ -7,6 +7,42 @@
 
 @section('main-content')
     <div class="nav-tabs-custom">
+
+        <div class="progress progress-sm active">
+            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
+                 style="width: 50%">
+                <span class="sr-only">50% Complete</span>
+            </div>
+        </div>
+
+
+
+        <wizard>
+
+            <wizard-step title="Usuari" active="true">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et labore nam nisi nobis obcaecati. Ab accusantium architecto distinctio dolorem dolores ducimus eos hic praesentium provident quae quis, repellat tempore vero.
+            </wizard-step>
+
+            <wizard-step title="Dades Personals">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et labore nam nisi nobis obcaecati. Ab accusantium architecto distinctio dolorem dolores ducimus eos hic praesentium provident quae quis, repellat tempore vero.
+            </wizard-step>
+
+            <wizard-step title="Estudi i curs">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et labore nam nisi nobis obcaecati. Ab accusantium architecto distinctio dolorem dolores ducimus eos hic praesentium provident quae quis, repellat tempore vero.
+            </wizard-step>
+
+            <wizard-step title="Moduls professionals">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et labore nam nisi nobis obcaecati. Ab accusantium architecto distinctio dolorem dolores ducimus eos hic praesentium provident quae quis, repellat tempore vero.
+            </wizard-step>
+
+            <wizard-step title="Unitats Formatives">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et labore nam nisi nobis obcaecati. Ab accusantium architecto distinctio dolorem dolores ducimus eos hic praesentium provident quae quis, repellat tempore vero.
+            </wizard-step>
+
+
+
+        </wizard>
+
         <ul class="nav nav-tabs nav-justified">
             <li class="active"><a href="#tab_1" data-toggle="tab">Tab 1</a></li>
             <li><a href="#tab_2" data-toggle="tab">Tab 2</a></li>
@@ -66,6 +102,9 @@
             </div>
         </div>
         <!-- /.tab-content -->
+        <div class="box-footer">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem commodi delectus explicabo, itaque neque pariatur quam repellat ullam vel velit veniam. Aliquid autem consequuntur, cumque doloribus explicabo maiores sunt.
+        </div>
     </div>
 
 @endsection
