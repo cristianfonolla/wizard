@@ -6,7 +6,7 @@
 
 
 @section('main-content')
-  
+
 
                 <wizard>
                     <wizard-step title="Usuari" active="true">
