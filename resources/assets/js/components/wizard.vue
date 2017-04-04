@@ -6,7 +6,9 @@
             </div>
         </div>
         <ul class="nav nav-tabs nav-justified">
-            <li v-for="step in steps" :class="{'active' : step.active}"><a :href="step.link" :aria-control="step.id" data-toogle="tab">{{step.title}}</a></li>
+            <li v-for="step in steps" :class="{'active' : step.active}">
+                <a :href="step.link" :aria-control="step.id" data-toogle="tab">{{step.title}}</a>
+            </li>
         </ul>
         <div class="tab-content">
             <slot></slot>
