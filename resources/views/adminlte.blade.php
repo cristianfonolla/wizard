@@ -1,20 +1,21 @@
 @extends('adminlte::page')
 
 @section('htmlheader_title')
-	Change Title here!
+    Change Title here!
 @endsection
 
 
 @section('main-content')
-	<div class="container-fluid spark-screen">
-		<div class="row">
-			<div class="col-md-9 col-md-offset-1">
+    <div class="container-fluid spark-screen">
+        <div class="row">
+            <div class="col-md-9 col-md-offset-1">
 
-                <form-user></form-user>
+
 
                 {{--Shared state--}}
                 <wizard>
                     <wizard-step title="Usuari">
+                        <form-user></form-user>
                         Step 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et minus quia quis totam veritatis? Animi aut blanditiis esse recusandae velit voluptatem. Consectetur corporis dolor hic maxime nam officiis perferendis, reiciendis.
                     </wizard-step>
                     <wizard-step title="Dades personals">
@@ -31,7 +32,7 @@
                     </wizard-step>
                 </wizard>
 
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </div>
 @endsection
