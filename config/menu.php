@@ -30,7 +30,6 @@ Menu::macro('sidebar', function () {
         ->add(Menu::adminlteSeparator('Acacha Adminlte'))
         #adminlte_menu
         ->add(Link::toUrl('adminlte', 'Adminlte'))
-        ->add(Link::toUrl('wizard', 'Wizard'))
         ->add(Menu::adminlteSeparator('SECONDARY MENU'))
         ->add(Menu::new()->prepend('<a href="#"><span>Multilevel</span> <i class="fa fa-angle-left pull-right"></i></a>')
             ->addParentClass('treeview')

@@ -172,12 +172,15 @@ return [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
         Spatie\Menu\Laravel\MenuServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
         #llum_providers
 
         /*
          * Package Service Providers...
          */
         Laravel\Tinker\TinkerServiceProvider::class,
+        Acacha\Stateful\Providers\StatefulServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -247,6 +250,7 @@ return [
         'Menu' => Spatie\Menu\Laravel\MenuFacade::class,
         'Link' => Spatie\Menu\Laravel\Link::class,
         'Html' => Spatie\Menu\Laravel\Html::class,
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
         #llum_aliases
 
     ],
